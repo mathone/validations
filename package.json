@@ -28,7 +28,11 @@
     "postversion": "git push && git push --tags",
     "publish": "npm publish --access public"
   },
+  "dependencies": {
+    "react": "^18.1.0"
+  },
   "devDependencies": {
+    "@types/react": "^18.0.9",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
     "eslint": "^8.15.0",
