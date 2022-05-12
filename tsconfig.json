@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es5",
+    "lib": ["es2015", "dom"],
+
+    /* Modules */
+    "baseUrl": ".",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "paths": {},
+    "rootDir": "./src",
+
+    /* JavaScript Support */
+    "allowJs": false,
+
+    /* Emit */
+    "declaration": true,
+    "outDir": "lib",
+    "removeComments": true,
+
+    /* Output Formatting */
+    "pretty": false,
+
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/tests/*"]
+}

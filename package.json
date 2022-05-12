@@ -1,0 +1,21 @@
+{
+  "name": "@mathone/validations",
+  "version": "1.0.0",
+  "description": "General validations",
+  "author": {
+    "name": "Lucas Mathioni",
+    "email": "mathioni@me.com",
+    "url": "https://github.com/lucasmathioni"
+  },
+  "homepage": "https://github.com/mathone/validations#readme",
+  "repository": "git+https://github.com/mathone/validations.git",
+  "bugs": {
+    "url": "https://github.com/mathone/validations/issues"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
