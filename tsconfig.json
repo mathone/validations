@@ -8,10 +8,7 @@
     "baseUrl": ".",
     "module": "commonjs",
     "moduleResolution": "node",
-    "paths": {
-      "@types": ["./src/@types"],
-      "@validators": ["./src/validators"]
-    },
+    "paths": {},
     "rootDir": "./src",
 
     /* JavaScript Support */

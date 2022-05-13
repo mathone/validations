@@ -1,14 +1,17 @@
+/* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable @typescript-eslint/no-unsafe-return */
+
 import type {
   ValidationConfig,
   ValidationData,
   ValidationFields,
   ValidationSchema,
   ValidationType,
-} from '@types';
+} from '../../@types';
 
 import { useCallback, useMemo } from 'react';
 
-import { validateField, validateFields } from '@validators';
+import { validateField, validateFields } from '../../validators';
 
 export function useValidation<
   TData extends ValidationData,

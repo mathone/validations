@@ -5,9 +5,9 @@ import type {
   ValidationFields,
   ValidationSchema,
   ValidationType,
-} from '@types';
+} from '../../@types';
 
-import { validateRequired, validateEmail } from '@validators';
+import { validateRequired, validateEmail } from '../../validators';
 
 export function validateField<T extends ValidationType>(
   config: ValidationConfig,
